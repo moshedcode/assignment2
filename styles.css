@@ -119,6 +119,7 @@ body{
 
 .quick-list-description{
     color: #8b8b8a;
+    font-size: 20px;
 }
 
 .quick-feature-photos img{
@@ -252,6 +253,31 @@ body{
 
 
 /* ---------------------------------------
+    extra section: our projects timeline
+------------------------------------------ */
+.previous-projects{
+    align-items: center;
+}
+.previous-projects{
+    margin-top: 100px;
+}
+.previous-projects{
+    text-align: center;
+    font-size: 30px;
+}
+.previous-images img{
+    width: 400px;
+}
+.previous-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+/* ---------------------------------------
             our sponsors
 ------------------------------------------ */
 .our-sponsors{
@@ -296,5 +322,198 @@ body{
     padding: 50px;
     border-radius: 10px;
     font-size: 15px;
+
+}
+
+
+/* ---------------------------------------
+     media queries for mobile devices
+------------------------------------------ */
+
+@media only screen and (max-width:688px){
+    .nav-tools{
+        display: none;
+    }
+    .nav-bar{
+        padding-left: 10px;
+    }
+    .website-name{
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    .banner img{
+        width: 100%;
+    }
+
+    .banner-heading{
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .banner-description{
+        width: 350px;
+        height: 52px;
+        font-size: 12px;
+        margin-bottom: 40px;
+        color: #8b8b8a;
+    }
+
+    .button-primary{
+        width: 110px;
+        height: 30px;
+        font-size: 12px;
+        font-weight: 700;
+        margin-top: 0px;
+    }
+
+    .quick-feature-list{
+        display: flex;
+        
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 50px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .quick-feature-photos{
+        display: flex;
+        flex-direction: column;
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        
+        
+    }
+
+    .quick-feature-photos img{
+        width: 100px;
+        
+    }
+    .quick-list-heading{
+        width: 200px;
+        padding-bottom: 0px;
+        font-size: 20px;
+        height: 40px;
+    }
+
+    .quick-list-description{
+        color: #8b8b8a;
+        font-size: 12px;
+    }
+
+
+
+    .features{
+       
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 15px;
+        
+    }
+    .feature-heading{
+        
+        font-size: 30px;
+        font-weight: 700;
+        padding-left: 10px;
+        
+    
+    }
+    .feature-description{
+        
+        width: 340px;
+        margin-top: 20px;
+    }
+
+    .feature-box{
+        width: 330px;
+        font-size: 12px;     
+    }
+
+    .features img{
+        width: 300px;
+        margin-top: 20px;  
+        margin-left: 18px;
+    }
+
+    .experience-button{
+        padding: 20px;
+        font-size: 20px;
+        position: relative;
+        bottom: 80px;
+        right: 10px;
+    
+    }
+    
+    .ten-year{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+
+    .some-facts-text{
+        margin-left: 16px;
+        margin-bottom: 50px;
+    }
+
+    .facts{
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    
+    .facts div{
+        text-align: center;
+        border: 2px solid #f1cda3;
+        padding: 20px;
+        border-radius: 10px;
+       
+    }
+
+    .previous-projects{
+       
+        font-size: 18px;
+    }
+    .previous-images img{
+        width: 200px;
+        
+    }
+    .previous-images{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 10px;
+        margin-left: 80px;
+        margin-right: 100px;
+    }
+
+
+
+    .our-sponsors p{
+        width: 300px;
+        color: #8b8b8a;
+        margin-bottom: 50px;
+    }
+
+    .sponsor-logos{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+         
+     }
+     .sponsor-logos img{
+         width: 70px;    
+     }
+
+     .footer{
+        
+        margin: 60px 20px 60px 20px;
+        padding: 20px;
+        font-size: 10px;
+    
+    }
+
+   
 
 }
