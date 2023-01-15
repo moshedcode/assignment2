@@ -19,8 +19,8 @@ body{
 
 .nav-bar{
     display: flex;
-    padding-left: 180px;
-    padding-right: 140px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 50px;
     justify-content: space-between;
     
@@ -33,7 +33,7 @@ body{
 
 .nav-tools{
     display: flex;
-    gap: 50px;
+    gap: 40px;
 }
 
 .nav-tools a{
@@ -96,8 +96,8 @@ body{
 .quick-feature-list{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 100px;
     gap: 100px;
     align-items: center;
@@ -136,7 +136,7 @@ body{
 .features{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 150px;
+    padding-left: 50px;
     
 }
 
@@ -271,7 +271,7 @@ body{
 .previous-images{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 100px;
+    margin-left: 40px;
     margin-right: 100px;
 }
 
